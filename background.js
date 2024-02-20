@@ -1,7 +1,7 @@
 const html1 = chrome.runtime.getURL("hello.html");
 
 function checkbad(s) {
-  const badlist = ["porn", "xhamster"];
+  const badlist = ["porn", "xhamster", "hentai"];
   for (let index = 0; index < badlist.length; index++) {
     if (s.includes(badlist[index])) return true;
   }
