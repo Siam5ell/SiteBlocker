@@ -17,4 +17,4 @@ const quoters = [
 
 const ind = Math.floor(Math.random() * quotes.length);
 element.textContent = quotes[ind];
-e2.textContent = quoters[ind];
+e2.textContent = '-'+quoters[ind];

@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "chrome-types": "^0.1.264"
+    "chrome-types": "^0.1.264",
+    "firebase": "^11.1.0"
   }
 }

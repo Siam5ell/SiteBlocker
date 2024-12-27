@@ -1,0 +1,4 @@
+Steps:
+1. Create new ui.
+2. Add randomized quotes feature(fetch random quotes from local storage. Later upgrade to some database.)
+3. Add feature to add or remove sites(store sites on local storage). (1st directly, then behind google sign in.)

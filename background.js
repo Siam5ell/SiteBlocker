@@ -1,7 +1,7 @@
-const html1 = chrome.runtime.getURL("hello.html");
+const html1 = chrome.runtime.getURL("site_blocked_page.html");
 
 function checkbad(s) {
-  const badlist = ["porn", "xhamster", "hentai"];
+  const badlist = ["porn", "xhamster", "hentai","youtube.com/shorts"];
   for (let index = 0; index < badlist.length; index++) {
     if (s.includes(badlist[index])) return true;
   }
