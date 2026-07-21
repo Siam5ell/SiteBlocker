@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Site Blocker Popup</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 400px;
+        height: 300px;
+        background-color: #90cfcc;
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .inline {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 25px;
+      }
+      #addurl {
+        margin-right: 10px;
+      }
+      #add {
+        color: white;
+        background-color: #4b8fcc;
+        width: 3rem;
+        border: none;
+        border-radius: 5px;
+      }
+      p {
+        margin-top: 10px;
+        font-family: monospace;
+        color: #dbdadcff;
+        font-size: 1.5em;
+      }
+      ul {
+        margin-top: 10px;
+        overflow: auto;
+        width: 100px;
+        height: 120px;
+      }
+      li {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+      }
+      .delete {
+        width: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Site Blocker</h1>
+    <div class="inline">
+      <input type="text" name="addurl" id="addurl" />
+      <button id="add">ADD</button>
+    </div>
+    <p>Sites Blocked</p>
+    <ul id="blocked_sites_list"></ul>
+    <script src="site_blocked_list_handler.js"></script>
+  </body>
+</html>

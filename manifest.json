@@ -14,5 +14,8 @@
     "service_worker": "background.js",
     "type": "module"
   },
-  "incognito": "split"
+  "incognito": "split",
+  "action": {
+    "default_popup": "popup.html"
+  }
 }
