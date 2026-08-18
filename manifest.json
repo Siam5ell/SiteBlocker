@@ -3,7 +3,7 @@
   "name": "Site Blocker",
   "description": "Base Level Extension",
   "version": "1.0",
-  "permissions": ["tabs"],
+  "permissions": ["tabs", "storage"],
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
